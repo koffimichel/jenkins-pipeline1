@@ -10,6 +10,7 @@ pipeline {
             steps{
                 sh 'echo "test"'
                 sh 'uname -r'
+                sh 'nproc'
             }
         }
         stage('createfile'){
